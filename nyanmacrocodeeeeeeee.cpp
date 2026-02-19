@@ -34,7 +34,7 @@ DWORD WINAPI SpamThread(LPVOID)
             in[1].ki.dwFlags = KEYEVENTF_KEYUP;
 
             SendInput(2, in, sizeof(INPUT));
-            Sleep(25); // note for me cuz im stupid and forget the counter thingy. Thats 40 cps 
+            Sleep(25); // note for me cuz im stupid and forget the counter thingy 
         }
         else
         {
@@ -119,3 +119,4 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE, LPSTR, int)
 
 
 dadadddaddadadadadadawda
+
